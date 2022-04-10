@@ -1,0 +1,363 @@
+
+.wrapper{
+  border:1px solid #3a3030;
+  height: auto;
+  width: 100%;
+  margin:0 auto;
+}
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 100%;
+    margin:0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+  background-image: url("../images/field-5065671__480.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 180px;
+  border:1px solid #1c191c;
+  height: 180px;
+  width: 100%;
+  
+}
+.ct{
+  background-image: url("../images/Ảnh chụp Màn hình 2021-11-30 lúc 15.20.57.png");
+  background-repeat: no-repeat;
+  background-size: 100% 70px;
+  border:1px solid #f8f9fa;
+  height: 70px;
+  width: 100%;
+
+  
+}
+.ct1{
+  background-image: url("../images/maxresdefault.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct2{
+  background-image: url("../images/dalat.jpeg");
+  background-repeat: no-repeat;
+ background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct3{
+  background-image: url("../images/mountains.jpeg");
+  background-repeat: no-repeat;
+ background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct4{
+  background-image: url("../images/sb.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct5{
+  background-image: url("../images/tour-du-lich-mien-trung-nen-di-vao-thoi-gian-nao-la-dep-nhat-min.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct6{
+  background-image: url("../images/i.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct7{
+  background-image: url("../images/tour-nam-du-4-ngay-3-dem-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct8{
+  background-image: url("../images/dalat.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 140px;
+    border: 1px solid #f8f9fa;
+    height: 150px;
+    width: 100%;
+
+  
+}
+.ct9{
+  background-image: url("../images/dg.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 490px;
+    border: 1px solid #f8f9fa;
+    height: 490px;
+    width: 100%;
+
+  
+}
+.ct10{
+  background-image: url("../images/km3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 90px;
+    border: 1px solid #f8f9fa;
+    height: 110px;
+    width: 100%;
+
+  
+}
+.ct11{
+  background-image: url("../images/km2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 109% 490px;
+    border: 1px solid #f8f9fa;
+    height: 490px;
+    width: 100%;
+
+  
+}
+.ct12{
+  background-image: url("../images/i.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 90px;
+    border: 1px solid #f8f9fa;
+    height: 110px;
+    width: 100%;
+
+  
+}
+.ct13{
+  background-image: url("../images/km7.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 90px;
+    border: 1px solid #f8f9fa;
+    height: 110px;
+    width: 100%;
+
+  
+}
+
+.menu{
+  border:1px solid #222423;
+  height: 50px;
+  width: 100%;
+  background: #343434f7;
+}
+ul.list_menu {
+    padding: 0;
+    margin: auto;
+    width: 70%;
+    border: 1px solid #;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+
+}
+ul.list_menu li:hover {
+    background: burlywood;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #ededf3;
+}
+ul.list_menu li {
+    float: left;
+   
+    margin: 7px;
+    padding: 5px;
+   
+}
+ul.baiviet {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.baiviet li {
+  
+   border:1px solid #ddd;
+   padding: 10px;
+}
+#main{
+  border:1px solid  #00ff80;
+  height: auto;
+  width: 100%;
+}
+.sidebar{
+  border:1px solid #000066;
+  height: auto;
+  width: 20%;
+  margin-top:auto;
+  margin-left:auto;
+  float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #;
+    list-style: none;
+    line-height: 27px;
+
+}
+ul.list_sidebar li:hover {
+    background: cadetblue;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #2f2f30;
+    display: block;
+}
+ul.list_sidebar li {
+    margin: 7px;
+    padding: 5px;
+   
+}
+.maincontent{
+  
+  height: auto;
+  width: 79%;
+  margin-top:5px;
+  margin-left:5px;
+  float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li img {
+    height: 190px;
+
+}
+ul.product_list li {
+    width: 30%;
+    border: 10px solid #ddd;
+    margin: 5px;
+    float: left;
+   
+    height: 350px;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li img {
+    width: 100%;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+  border:1px solid #ff1a8c;
+  height: 450px;
+  width: 100%;
+  background: #212529e8;
+}
+p.footer_copyright {
+    text-align: center;
+    color: #000;
+}
+.clear{
+  clear: both;
+}
+
+/* Tabs */
+.tabs {
+  width: 100%;
+  background-color: #00e6ac;
+  border-radius: 5px 5px 5px 5px;
+}
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  /*border: 1px solid #d5d5de;
+  border-bottom: none;*/
+  cursor: pointer;
+}
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: #08E;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.tab-content {
+  padding: 10px;
+  border: 5px solid #00e6ac;
+  background-color: #FFF;
+}

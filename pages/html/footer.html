@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.c {
+  color: white;
+  }
+/* Create four equal columns that floats next to each other */
+.column3 {
+  color: white;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<br>
+ <!-- Section: Form -->
+    <section class="c">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong >gửi thư qua địa chỉ</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+ 
+<div class="row">
+  <div class="column3" style="text-align:center">
+    <h4>liên hệ vơi chúng tôi</h4>
+<p>HUTECH</p>
+    <p>0912313312</p>
+    <p>info@gmail.com</p>
+   
+     <h4>mạng xã hội</h4>
+    <i class="fab fa-facebook-f" style="font-size:40px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
+   <i class="fab fa-instagram" style="font-size:40px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
+    <i class="fab fa-viber"style="font-size:40px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
+   <i class="icon icon--zalo"style="font-size:40px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
+    <i class="fab fa-youtube"style="font-size:40px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
+
+  </div>
+  <div class="column3" style="text-align:center">
+    <h4>thông tin</h4>
+    <p>Tạp chí du lịch</p>
+    <p>Cẩm nang du lịch</p>
+    <p>Tin tức</p>
+    <p>Sitemap</p>
+    <p>Chính sách riêng tư</p>
+  </div>
+  <div class="column3" style="text-align:center">
+    <h4>Bảng chất lượng</h4>
+    <p>Cao cấp</p>
+    <p>Tiêu chuẩn</p>
+    <p>Tiết kiệm</p>
+    <p>Giá tốt</p>
+   
+  </div>
+  <div class="column3" style="text-align:center">
+   <iframe width="220" height="120"
+src="https://youtube.com/embed/JvTzj71UlCg">
+</iframe>
+  </div>
+</div>
+
+</body>
+</html>
