@@ -16,18 +16,17 @@
 			<p>Số lượng : <?php echo $row_chitiet['soluong'] ?></p>
 			<p>Danh mục  : <?php echo $row_chitiet['tendanhmuc'] ?></p>
 			<p><input class="themgiohang" name="themgiohang" type="submit" value="Thêm giỏ hàng"></p>
-			
+
 		</div>
 	</form>
 </div>
 <div class="clear"></div>
 <div class="tabs">
   <ul id="tabs-nav">
-    <li class="fas fa-bars"><a href="#tab1">tóm tắt tour</a></li>
+    <li class="fas fa-bars"><a href="#tab1">Tóm tắt tour</a></li>
     <li class="fas fa-bars"><a href="#tab2">Nội dung chi tiết</a></li>
-    
     <li class="fas fa-bars"><a href="#tab3">Hình ảnh tour</a></li>
-   
+	<li class="fas fa-bars"><a href="#tab4">Vị trí</a></li>
   </ul> <!-- END tabs-nav -->
   <div id="tabs-content">
     <div id="tab1" class="tab-content">
@@ -38,6 +37,9 @@
     </div>
     <div id="tab3" class="tab-content">
      	<img width="100%" src="admincp/modules/quanlysp/uploads/<?php echo $row_chitiet['hinhanh'] ?>">
+    </div>
+	 <div id="tab4" class="tab-content">
+		 <div id="map" style="width:500px;height:480px;margin: 0 auto;"><?php echo $row_chitiet['vitri'] ?></div>
     </div>
     
   </div> <!-- END tabs-content -->
